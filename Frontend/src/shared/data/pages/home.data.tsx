@@ -16,15 +16,11 @@ import {
   IconRocket,
 } from '@tabler/icons-react';
 import {
-  CallToActionProps,
   ContactProps,
-  ContentProps,
   FAQsProps,
   FeaturesProps,
   HeroProps,
-  PricingProps,
   SocialProofProps,
-  StepsProps,
   TeamProps,
   TestimonialsProps,
 } from '../../types';

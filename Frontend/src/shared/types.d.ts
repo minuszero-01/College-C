@@ -316,10 +316,10 @@ type TestimonialsProps = Widget & {
   callToAction?: CallToActionType;
 };
 
-type PricingProps = Widget & {
-  header?: Header;
-  prices: Array<Price>;
-};
+// type PricingProps = Widget & {
+//   header?: Header;
+//   prices: Array<Price>;
+// };
 
 type ComparisonProps = Widget & {
   header?: Header;

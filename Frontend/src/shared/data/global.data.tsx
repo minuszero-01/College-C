@@ -15,10 +15,10 @@ export const announcementData: AnnouncementProps = {
     text: 'Yes we have our Socials dont worry :)',
     href: '/',
   },
-  callToAction2: {
-    text: 'Follow US on Twitter',
-    href: '/',
-  },
+  // callToAction2: {
+  //   text: 'Follow US on Twitter',
+  //   href: '/',
+  // },
 };
 
 // Header data
