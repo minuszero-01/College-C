@@ -118,9 +118,9 @@ export const featuresHome: FeaturesProps = {
   },
   items: [
     {
-      title: 'All data in One place',
+      title: 'Personalized Dashboards',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        'Take control of your academic journey with a user-friendly dashboard tailored to your role. Access everything in one place: View current CGPA, class schedules, attendance records, club activities, and announcements with ease.',
       icon: IconBrandTailwind,
       callToAction: {
         text: 'Discover now',
@@ -128,9 +128,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Identify your class teachers and thier Qualificatioons',
+      title: 'Streamlined Communication',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'This fosters a collaborative learning environment and enables timely dissemination of important updates and reminders.',
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
@@ -138,9 +138,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Best in Class Visualization',
+      title: 'Centralized Data Management',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
+        'College Compass ensures the safe storage and management of student and teacher information. Administrators can easily retrieve essential data for administrative purposes, promoting efficiency and data integrity across the institution.',
       icon: IconListCheck,
       callToAction: {
         text: 'Discover now',
@@ -148,9 +148,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Know your teachers',
+      title: 'Effortless Management: Data at Your Fingertips',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+        'Centralized data hub: College Compass securely stores and manages student and teacher information, streamlining administrative tasks.',
       icon: IconRocket,
       callToAction: {
         text: 'Discover now',
@@ -164,7 +164,7 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What our customers say about us',
+    title: 'What our Students say about us',
     subtitle:
       'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
   },
@@ -239,33 +239,33 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Get answers to commonly asked questions about College Compass.',
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Who can use College Compass?',
+      description: `College Compass is designed for both students and teachers at your institution.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'How can I access my College Compass dashboard?',
+      description: `You can access your College Compass dashboard through your institution's login portal (specific instructions will be provided by your school).`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: "What features does the Student Dashboard offer?",
+      description: `The Student Dashboard allows students to view their current CGPA, attendance, and course schedule. They can also access teacher profiles to learn about their expertise and availability, and stay updated on club activities, news, and announcements.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: "How do I stay informed about club activities and news updates?",
+      description: `College Compass keeps students informed about upcoming events, activities, and news updates through the platform. You can access this information directly from your Student Dashboard, promoting engagement and participation within the campus community.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'How does College Compass handle student data?',
+      description: `College Compass stores and manages student information securely in accordance with all relevant data privacy regulations.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'How does College Compass benefit school administration?',
+      description: `College Compass facilitates easy data retrieval for administrative purposes, streamlining tasks and improving efficiency.`,
     },
   ],
 };
@@ -278,16 +278,16 @@ export const teamHome: TeamProps = {
   header: {
     title: 'Team Members',
     subtitle:
-      'Suspendisse in dui nibh. Donec enim leo, sodales et egestas id, malesuada non diam. Sed dapibus velit et mauris condimentum, vel imperdiet erat egestas.',
+      'Meet the Brainy Bunch Behind the Scenes :).  Nerds by Day, Superheroes by Night!',
     // tagline: 'Team',
   },
   teams: [
     {
-      name: 'Cindy Belcher',
-      occupation: 'SEO Consultant',
+      name: 'Monil Karia',
+      occupation: 'Co-Founder',
       image: {
         src: 'https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Cindy Belcher',
+        alt: 'Monil Karia',
       },
       items: [
         {
@@ -308,11 +308,11 @@ export const teamHome: TeamProps = {
       ],
     },
     {
-      name: 'Toby Foster',
-      occupation: 'Marketing Tech',
+      name: 'Harsh Hande',
+      occupation: 'Co-Founder',
       image: {
         src: 'https://images.unsplash.com/photo-1614583224978-f05ce51ef5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2172&q=80',
-        alt: 'Toby Foster',
+        alt: 'Harsh Hande',
       },
       items: [
         {
@@ -333,11 +333,11 @@ export const teamHome: TeamProps = {
       ],
     },
     {
-      name: 'Clark Bourne',
-      occupation: 'Content Manager',
+      name: 'Manali Thakkar',
+      occupation: 'Co-Founder',
       image: {
         src: 'https://images.unsplash.com/photo-1639628735078-ed2f038a193e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Clark Bourne',
+        alt: 'Manali Thakkar',
       },
       items: [
         {
@@ -358,11 +358,11 @@ export const teamHome: TeamProps = {
       ],
     },
     {
-      name: 'Bella Chase',
-      occupation: 'UX Designer',
+      name: 'Anonymous Friend',
+      occupation: 'UX INTERN',
       image: {
         src: 'https://images.unsplash.com/photo-1628260412297-a3377e45006f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Bella Chase',
+        alt: 'Anonymous Friend',
       },
       items: [
         {
@@ -390,25 +390,25 @@ export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: 'Connect with us for any inquiries or assistance we are here to help!',
     tagline: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'Have a question, comment, or just want to say hello? We would love to hear from you! Whether you are a student, teacher, or just curious about College Compass, do not hesitate to reach out. Our friendly team is here to assist you with any inquiries or assistance you may need. Drop us a message, and lets start a conversation today!',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['MIT ADT University, Loni Kalbhor'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: 1234567890', 'Mail: collegecompass@gmail.com'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['Nerds by Day, Superheroes by Night. Inshort Alltime :)'],
       icon: IconClock,
     },
   ],
