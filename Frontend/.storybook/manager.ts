@@ -6,8 +6,8 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'TailNext',
-    brandUrl: 'https://github.com/onwidget/tailnext',
+    brandTitle: 'College-Compass',
+    brandUrl: 'https://github.com/Monil-Karia/College-C',
     brandTarget: '_blank',
   }),
 });

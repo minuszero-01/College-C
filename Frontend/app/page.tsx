@@ -14,14 +14,11 @@ import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
 import Contact from '~/components/widgets/Contact';
 import {
-  callToAction2Home,
   contactHome,
   faqs2Home,
   featuresHome,
   heroHome,
-  pricingHome,
   socialProofHome,
-  stepsHome,
   teamHome,
   testimonialsHome,
 } from '~/shared/data/pages/home.data';
@@ -36,13 +33,10 @@ export default function Page() {
       <Hero {...heroHome} />
       <SocialProof {...socialProofHome} />
       <Features {...featuresHome} />
-      <Steps {...stepsHome} />
       <Testimonials {...testimonialsHome} />
       <FAQs2 {...faqs2Home} />
-      <Pricing {...pricingHome} />
       <Team {...teamHome} />
       <Contact {...contactHome} />
-      <CallToAction2 {...callToAction2Home} />
     </>
   );
 }
