@@ -16,8 +16,6 @@ import Contact from '~/components/widgets/Contact';
 import {
   callToAction2Home,
   contactHome,
-  contentHomeOne,
-  contentHomeTwo,
   faqs2Home,
   featuresHome,
   heroHome,
@@ -38,8 +36,6 @@ export default function Page() {
       <Hero {...heroHome} />
       <SocialProof {...socialProofHome} />
       <Features {...featuresHome} />
-      <Content {...contentHomeOne} />
-      <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />
       <Testimonials {...testimonialsHome} />
       <FAQs2 {...faqs2Home} />

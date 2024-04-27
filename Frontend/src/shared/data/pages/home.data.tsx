@@ -160,113 +160,113 @@ export const featuresHome: FeaturesProps = {
   ],
 };
 
-// Content data on Home page *******************
-export const contentHomeOne: ContentProps = {
-  id: 'contentOne-on-home-one',
-  hasBackground: true,
-  header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    tagline: 'Content',
-  },
-  content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
-  items: [
-    {
-      title: 'Per ei quaeque sensibus',
-      description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-      description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
-      description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
-    },
-  ],
-  image: {
-    src: cameraFrontImg,
-    alt: 'Colorful Image',
-  },
-  isReversed: false,
-  isAfterContent: false,
-};
+// // Content data on Home page *******************
+// export const contentHomeOne: ContentProps = {
+//   id: 'contentOne-on-home-one',
+//   hasBackground: true,
+//   header: {
+//     title: 'Aliquip definiebas ad est',
+//     subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
+//     tagline: 'Content',
+//   },
+//   content:
+//     'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+//   items: [
+//     {
+//       title: 'Per ei quaeque sensibus',
+//       description:
+//         'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+//     },
+//     {
+//       title: 'Cu imperdiet posidonium sed',
+//       description:
+//         'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+//     },
+//     {
+//       title: 'Nulla omittam sadipscing mel ne',
+//       description:
+//         'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+//     },
+//   ],
+//   image: {
+//     src: cameraFrontImg,
+//     alt: 'Colorful Image',
+//   },
+//   isReversed: false,
+//   isAfterContent: false,
+// };
 
-// Content data on Home page *******************
-export const contentHomeTwo: ContentProps = {
-  id: 'contentOne-on-home-two',
-  hasBackground: true,
-  content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
-  items: [
-    {
-      title: 'Per ei quaeque sensibus',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
-    },
-    {
-      title: 'Per ei quaeque sensibus',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
-    },
-  ],
-  image: {
-    src: cameraBackImg,
-    alt: 'Colorful Image',
-  },
-  isReversed: true,
-  isAfterContent: true,
-};
+// // Content data on Home page *******************
+// export const contentHomeTwo: ContentProps = {
+//   id: 'contentOne-on-home-two',
+//   hasBackground: true,
+//   content:
+//     'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+//   items: [
+//     {
+//       title: 'Per ei quaeque sensibus',
+//     },
+//     {
+//       title: 'Cu imperdiet posidonium sed',
+//     },
+//     {
+//       title: 'Nulla omittam sadipscing mel ne',
+//     },
+//     {
+//       title: 'Per ei quaeque sensibus',
+//     },
+//     {
+//       title: 'Cu imperdiet posidonium sed',
+//     },
+//     {
+//       title: 'Nulla omittam sadipscing mel ne',
+//     },
+//   ],
+//   image: {
+//     src: cameraBackImg,
+//     alt: 'Colorful Image',
+//   },
+//   isReversed: true,
+//   isAfterContent: true,
+// };
 
-// Steps data on Home page *******************
-export const stepsHome: StepsProps = {
-  id: 'steps-on-home',
-  hasBackground: false,
-  isReversed: false,
-  isImageDisplayed: true,
-  image: {
-    src: gasImg,
-    alt: 'Steps image',
-  },
-  header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
-  },
-  items: [
-    {
-      title: 'Step 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
-      icon: IconArrowDown,
-    },
-    {
-      title: 'Step 2',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
-      icon: IconArrowDown,
-    },
-    {
-      title: 'Step 3',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
-      icon: IconArrowDown,
-    },
-    {
-      title: 'Ready!',
-    },
-  ],
-};
+// // Steps data on Home page *******************
+// export const stepsHome: StepsProps = {
+//   id: 'steps-on-home',
+//   hasBackground: false,
+//   isReversed: false,
+//   isImageDisplayed: true,
+//   image: {
+//     src: gasImg,
+//     alt: 'Steps image',
+//   },
+//   header: {
+//     title: 'Sed ac magna sit amet risus tristique interdum.',
+//   },
+//   items: [
+//     {
+//       title: 'Step 1',
+//       description:
+//         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+//       icon: IconArrowDown,
+//     },
+//     {
+//       title: 'Step 2',
+//       description:
+//         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+//       icon: IconArrowDown,
+//     },
+//     {
+//       title: 'Step 3',
+//       description:
+//         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+//       icon: IconArrowDown,
+//     },
+//     {
+//       title: 'Ready!',
+//     },
+//   ],
+// };
 
 // Testimonials data on Home page *******************
 export const testimonialsHome: TestimonialsProps = {
@@ -380,94 +380,94 @@ export const faqs2Home: FAQsProps = {
 };
 
 // Pricing data on Home page *******************
-export const pricingHome: PricingProps = {
-  id: 'pricing-on-home',
-  hasBackground: true,
-  header: {
-    title: 'Prices for each plan',
-    subtitle:
-      'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
-    // tagline: 'Pricing',
-  },
-  prices: [
-    {
-      title: 'basic',
-      price: 29,
-      period: 'per month',
-      items: [
-        {
-          description: 'Etiam in libero, et volutpat',
-        },
-        {
-          description: 'Aenean ac nunc dolor tristique',
-        },
-        {
-          description: 'Cras scelerisque accumsan lib',
-        },
-        {
-          description: 'In hac habitasse',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 7-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-    {
-      title: 'standard',
-      price: 69,
-      period: 'per month',
-      items: [
-        {
-          description: 'Proin vel laoreet',
-        },
-        {
-          description: 'Ut efficitur egestas',
-        },
-        {
-          description: 'Pellentesque ut nibh',
-        },
-        {
-          description: 'Donec fringilla sem',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 15-day trial',
-        href: '/',
-      },
-      hasRibbon: true,
-      ribbonTitle: 'Popular',
-    },
-    {
-      title: 'premium',
-      price: 199,
-      period: 'per month',
-      items: [
-        {
-          description: 'Curabitur suscipit risus',
-        },
-        {
-          description: 'Aliquam blandit malesuada',
-        },
-        {
-          description: 'Suspendisse sit amet',
-        },
-        {
-          description: 'Suspendisse auctor dui',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 30-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-  ],
-};
+// export const pricingHome: PricingProps = {
+//   id: 'pricing-on-home',
+//   hasBackground: true,
+//   header: {
+//     title: 'Prices for each plan',
+//     subtitle:
+//       'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
+//     // tagline: 'Pricing',
+//   },
+//   prices: [
+//     {
+//       title: 'basic',
+//       price: 29,
+//       period: 'per month',
+//       items: [
+//         {
+//           description: 'Etiam in libero, et volutpat',
+//         },
+//         {
+//           description: 'Aenean ac nunc dolor tristique',
+//         },
+//         {
+//           description: 'Cras scelerisque accumsan lib',
+//         },
+//         {
+//           description: 'In hac habitasse',
+//         },
+//       ],
+//       callToAction: {
+//         targetBlank: true,
+//         text: 'Free 7-day trial',
+//         href: '/',
+//       },
+//       hasRibbon: false,
+//     },
+//     {
+//       title: 'standard',
+//       price: 69,
+//       period: 'per month',
+//       items: [
+//         {
+//           description: 'Proin vel laoreet',
+//         },
+//         {
+//           description: 'Ut efficitur egestas',
+//         },
+//         {
+//           description: 'Pellentesque ut nibh',
+//         },
+//         {
+//           description: 'Donec fringilla sem',
+//         },
+//       ],
+//       callToAction: {
+//         targetBlank: true,
+//         text: 'Free 15-day trial',
+//         href: '/',
+//       },
+//       hasRibbon: true,
+//       ribbonTitle: 'Popular',
+//     },
+//     {
+//       title: 'premium',
+//       price: 199,
+//       period: 'per month',
+//       items: [
+//         {
+//           description: 'Curabitur suscipit risus',
+//         },
+//         {
+//           description: 'Aliquam blandit malesuada',
+//         },
+//         {
+//           description: 'Suspendisse sit amet',
+//         },
+//         {
+//           description: 'Suspendisse auctor dui',
+//         },
+//       ],
+//       callToAction: {
+//         targetBlank: true,
+//         text: 'Free 30-day trial',
+//         href: '/',
+//       },
+//       hasRibbon: false,
+//     },
+//   ],
+// };
 
 // Team data on Home page *******************
 export const teamHome: TeamProps = {
@@ -640,42 +640,42 @@ export const contactHome: ContactProps = {
 };
 
 // CallToAction data *******************
-export const callToAction2Home: CallToActionProps = {
-  title: 'Next.js + Tailwind CSS',
-  subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-  },
-  items: [
-    {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
-    },
-    {
-      title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-      href: '/',
-    },
-    {
-      title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          autocomplete: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
-    },
-  ],
-};
+// export const callToAction2Home: CallToActionProps = {
+//   title: 'Next.js + Tailwind CSS',
+//   subtitle:
+//     'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
+//   callToAction: {
+//     text: 'Get template',
+//     href: 'https://github.com/onwidget/tailnext',
+//     icon: IconDownload,
+//   },
+//   items: [
+//     {
+//       title: 'Get template',
+//       description: 'Aliquam sodales est lectus, quis.',
+//       href: 'https://github.com/onwidget/tailnext',
+//     },
+//     {
+//       title: 'Learn more',
+//       description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
+//       href: '/',
+//     },
+//     {
+//       title: 'Subscribe',
+//       description: 'Morbi orci nunc, euismod ac dui id, convallis.',
+//       form: {
+//         icon: IconMail,
+//         input: {
+//           type: 'email',
+//           name: 'email',
+//           autocomplete: 'email',
+//           placeholder: 'Enter your email address',
+//         },
+//         btn: {
+//           title: 'Subscribe',
+//           type: 'submit',
+//         },
+//       },
+//     },
+//   ],
+// };
