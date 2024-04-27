@@ -1,0 +1,18 @@
+INSERT INTO users (first_name, last_name, password, enrollment_number, mobile_number) VALUES
+('John', 'Doe', 'password123', 'MITU20BTCS1234', '1234567890'),
+('Jane', 'Smith', 'securepass', 'MITU20BTCS5678', '9876543210'),
+('Alice', 'Johnson', 'p@ssw0rd', 'MITU20BTCS9012', '5551234567'),
+('Bob', 'Williams', 'letmein', 'MITU20BTCS3456', '7779998888');
+
+INSERT INTO users (first_name, last_name, password, enrollment_number, mobile_number) VALUES
+('Emily', 'Brown', 'pass1234', 'MITU20BTCS6789', '3332221111'),
+('Michael', 'Davis', 'password', 'MITU20BTCS2345', '9998887777'),
+('Sophia', 'Martinez', 'secure123', 'MITU20BTCS7890', '1112223333'),
+('Daniel', 'Garcia', 'letmein123', 'MITU20BTCS4567', '4445556666');
+
+
+INSERT INTO users (first_name, last_name, password, enrollment_number, mobile_number) VALUES
+('Sarah', 'Miller', 'sarah123', 'MITU20BTCS8901', '7773331111'),
+('David', 'Taylor', 'davidpass', 'MITU20BTCS6785', '2228889999'),
+('Olivia', 'Wilson', 'password321', 'MITU20BTCS1236', '6664445555'),
+('James', 'Anderson', 'jamespass', 'MITU20BTCS5678', '3331112222');
