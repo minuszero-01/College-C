@@ -34,7 +34,7 @@ export const headerData: HeaderProps = {
         },
         {
           label: 'Pricing',
-          href: '/pricing',
+          href: '/',
         },
         {
           label: 'About us',
