@@ -1,0 +1,8 @@
+INSERT INTO Subjects (SubjectName) VALUES
+('Computer Science'),
+('Mathematics'),
+('Physics'),
+('Data Structures'),
+('Algorithms'),
+('Compiler Design'),
+('Mechanical Engineering');
