@@ -1,6 +1,6 @@
-const { Client } = require("pg");
+const Pool = require("pg").Pool;
 
-const client = new Client({
+const pool = new Pool({
   user: "postgres",
   host: "localhost",
   database: "CollegeCompass",
@@ -11,16 +11,13 @@ const client = new Client({
 // Function to check the connection
 const checkDatabaseConnection = async () => {
   try {
-    await client.connect();
+    await pool.connect();
     console.log("Connection to database established successfully.");
   } catch (error) {
     console.error("Failed to connect to the database:", error);
-  } finally {
-    await client.end();
-    console.log("Closed");
   }
 };
 
 checkDatabaseConnection();
 
-module.exports = { client };
+module.exports = { pool };
