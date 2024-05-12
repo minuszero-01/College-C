@@ -34,56 +34,55 @@ function DataHelper(enroll) {
 
 //routes for signin
 
-router.post("/login", (req, res) => {
+router.post("/login", async (req, res) => {
   try {
     const enrollment = req.body.enrollment;
     const password = req.body.password;
 
-    pool.query(
+    const data = await pool.query(
       "select * from users where enrollment_number=$1",
-      [enrollment],
-      (error, data) => {
-        if (error) {
-          console.log("Query Error in LoginIn");
-          console.log(error);
-          return res.status(500).json({ message: "Wrong Inputs" });
-        }
-
-        const rows = data.rows;
-
-        if (password == rows[0].password) {
-          const token = jwt.sign(
-            {
-              enrollment: enrollment,
-            },
-            JWT_SECRET
-          );
-
-          return res.json({
-            message: "Success",
-            token: token,
-            info: {
-              rows,
-            },
-          });
-        } else {
-          return res.json({
-            message: "Failed",
-          });
-        }
-      }
+      [enrollment]
     );
+
+    if (data.rows.length == 0) {
+      console.log("Query Error in LoginIn");
+      console.log(error);
+      return res.status(500).json({ message: "Wrong Inputs" });
+    }
+
+    const rows = data.rows;
+
+    if (password == rows[0].password) {
+      const token = jwt.sign(
+        {
+          enrollment: enrollment,
+        },
+        JWT_SECRET
+      );
+
+      return res.json({
+        message: "Success",
+        token: token,
+        info: {
+          rows,
+        },
+      });
+    } else {
+      return res.json({
+        message: "Failed",
+      });
+    }
   } catch (error) {
     console.log("Error in Login Function");
     console.log(error);
   }
 });
 
-router.post("/signup", (req, res) => {
+router.post("/signup", async (req, res) => {
   const body = req.body;
 
   try {
-    pool.query(
+    const data = pool.query(
       "INSERT INTO users (first_name, last_name, password, enrollment_number, mobile_number) VALUES ($1, $2, $3, $4 ,$5)",
       [
         body.firstName,
@@ -91,30 +90,29 @@ router.post("/signup", (req, res) => {
         body.password,
         body.enrollment,
         body.mobileNumber,
-      ],
-      (error, data) => {
-        if (error) {
-          return res.status(500).json({
-            message: "Already Exists",
-          });
-        } else {
-          const token = jwt.sign(
-            {
-              enrollment: body.enrollment,
-            },
-            JWT_SECRET
-          );
-
-          return res.json({
-            message: "Success",
-            token: token,
-            data: {
-              body,
-            },
-          });
-        }
-      }
+      ]
     );
+
+    if (data.rows.length == 0) {
+      return res.status(500).json({
+        message: "Already Exists",
+      });
+    } else {
+      const token = jwt.sign(
+        {
+          enrollment: body.enrollment,
+        },
+        JWT_SECRET
+      );
+
+      return res.json({
+        message: "Success",
+        token: token,
+        data: {
+          body,
+        },
+      });
+    }
   } catch (error) {
     if (error) {
       return res.json({
@@ -145,10 +143,10 @@ router.post("/dashboard/info", async (req, res) => {
 
     const className = data.rows[0];
 
-    res.status(200).json({ className: className, data: dataset });
+    return res.status(200).json({ className: className, data: dataset });
   } catch (err) {
     console.log(err);
-    res.status(404).json({ error: "Failed to fetch data" });
+    return res.status(404).json({ error: "Failed to fetch data" });
   }
 });
 
@@ -160,21 +158,25 @@ router.post("/dashboard/subjects", async (req, res) => {
   try {
     const data = await DataHelper(decoded.enrollment);
 
-    pool.query(
-      "SELECT s.SubjectID, s.SubjectName FROM Subjects s JOIN Class_Subject_Mapping csm ON s.SubjectID = csm.SubjectID   WHERE csm.ClassID = $1",
-      [data.classid],
-      (err, data) => {
-        if (err) {
-          return res
-            .status(404)
-            .json({ err: err, message: "No data Found in /dashboardSUB" });
-        }
-        return res.status(200).send(data.rows);
-      }
+    const subjects = await pool.query(
+      `SELECT t.TeacherName, s.SubjectID, s.SubjectName 
+      FROM Subjects s 
+      JOIN Class_Subject_Mapping csm ON s.SubjectID = csm.SubjectID 
+      JOIN Teacher t ON csm.ClassSubjectID = t.ClassSubjectID
+      WHERE csm.ClassID = $1`,
+      [data.classid]
     );
+
+    if (subjects.rows.length === 0) {
+      throw new Error("Subjects not found");
+    }
+
+    const AllSubjects = subjects.rows;
+
+    return res.status(200).send(AllSubjects);
   } catch (err) {
     console.log(err);
-    res.status(404).json({ error: "Failed to fetch data" });
+    return res.status(404).json({ error: "Failed to fetch data" });
   }
 });
 

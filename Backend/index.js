@@ -8,11 +8,11 @@ const { pool } = require("./db");
 
 const app = express();
 const PORT = 3000;
+app.use(cors());
+app.use("/api/v1", mainRoute);
 
 // app.use() use to run middlewares or to route the request to ceratin substring
 // Bootstrap application that all request from api/v1 go to mainRoute
-app.use(cors());
-app.use("/api/v1", mainRoute);
 
 app.use(bodyParser.json());
 

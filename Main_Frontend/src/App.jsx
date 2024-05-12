@@ -8,6 +8,9 @@ import Signup from "./Pages/Signup";
 import Dashboard from "./Pages/Dashboard";
 import Home from "./Pages/Home";
 import Me from "./Pages/Me";
+import Courses from "./Pages/Courses";
+import News from "./Pages/News";
+import Clubs from "./Pages/Clubs";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/clubs" element={<Clubs />} />
+        <Route path="/news" element={<News />} />
       </Routes>
     </BrowserRouter>
   );
