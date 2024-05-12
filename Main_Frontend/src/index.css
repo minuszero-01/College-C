@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-  width: 1px; /* for vertical scrollbars */
-  height: 1px; /* for horizontal scrollbars */
+  width: 0px; /* for vertical scrollbars */
+  height: 0px; /* for horizontal scrollbars */
 }
 
 /* Track for both vertical and horizontal scrollbars */

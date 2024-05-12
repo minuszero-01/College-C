@@ -117,7 +117,7 @@ export default function Dashboard() {
       <div className="flex flex-row gap-4">
         <Navbar />
         <div className="w-full flex flex-col">
-          <div className=" flex flex-row  py-2 items-center text-4xl font-light text-white gap-2">
+          <div className=" flex flex-row  py-2 items-center text-4xl font-semibold  text-white gap-2">
             <p>Welcome back,</p>
             {data ? <p>{data?.data?.name}</p> : <p>Loading or no data!</p>}👋
           </div>

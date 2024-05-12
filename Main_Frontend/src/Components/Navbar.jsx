@@ -16,7 +16,7 @@ export default function Navbar() {
   }
 
   function handleNews() {
-    navigate("/news");
+    navigate("/events");
   }
 
   return (
@@ -48,7 +48,7 @@ export default function Navbar() {
           onClick={handleNews}
           className="mt-4 text-left font-light text-xl hover:bg-lime-300 hover:text-black w-52 pl-5 p-2 rounded-2xl"
         >
-          News
+          Events
         </button>
       </div>
     </div>

@@ -6,7 +6,6 @@ export default function CourseCard({ subject, teacher }) {
       <div className="text-lg  border-black w-48">{subject}</div>
 
       <div className="text-lg mx-10  border-black w-48">{teacher}</div>
-
       <button>
         <svg
           style={{ width: "15px" }}

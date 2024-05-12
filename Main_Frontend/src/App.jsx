@@ -9,7 +9,7 @@ import Dashboard from "./Pages/Dashboard";
 import Home from "./Pages/Home";
 import Me from "./Pages/Me";
 import Courses from "./Pages/Courses";
-import News from "./Pages/News";
+import Events from "./Pages/Events";
 import Clubs from "./Pages/Clubs";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/clubs" element={<Clubs />} />
-        <Route path="/news" element={<News />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
     </BrowserRouter>
   );
