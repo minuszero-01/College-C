@@ -124,7 +124,7 @@ export default function Dashboard() {
           <div className="w-full h-full my-2">
             <div className=" flex flex-row h-1/2">
               <div className="bg-amber-50 flex flex-col border-2 w-1/2 m-1 rounded-lg p-3  divide-y-2 divide-neutral-950">
-                <div className="text-2xl font-normal pb-2">Profile</div>
+                <div className="text-3xl font-normal pb-2">Profile</div>
                 <div className="  flex flex-row justify-around  h-full items-center">
                   <div className=" flex flex-col gap-4 text-xl font-normal">
                     <div className="flex gap-4">
@@ -169,7 +169,7 @@ export default function Dashboard() {
                 </div>
               </div>
               <div className="flex flex-col border-2 w-1/2 m-1  rounded-lg p-3 bg-amber-50 divide-y-2  divide-neutral-950">
-                <div className="text-2xl font-normal pb-2">Performance</div>
+                <div className="text-3xl font-normal pb-2">Performance</div>
                 <div className="pt-8 pr-12">
                   <PerformanceGraph year={data ? data?.data?.year : "LY"} />
                 </div>
@@ -178,10 +178,10 @@ export default function Dashboard() {
             <div className="  flex flex-row h-1/2">
               <div className="flex flex-col  border-2 w-1/2 m-1 rounded-lg p-3 bg-amber-50 divide-y-2 divide-neutral-950">
                 <div className="flex flex-row justify-between">
-                  <div className=" text-2xl font-normal mb-2">Courses</div>
+                  <div className=" text-3xl font-normal mb-2">Courses</div>
                   <button
                     onClick={() => setModalOpen(true)}
-                    className=" px-4 w-auto h-8 items-center bg-cyan-600 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
+                    className=" px-4 w-auto h-8 items-center bg-cyan-700 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
                   >
                     View TimeTable
                   </button>
@@ -192,6 +192,13 @@ export default function Dashboard() {
                   />
                 </div>
                 <div className="overflow-x-auto  ">
+                  <div className="flex  flex-row mt-4  w-full ml-14 gap-32 items-center">
+                    <div className="text-xl font-semibold ">Course Name</div>
+                    <div className="text-xl font-semibold  ml-4 ">
+                      Teacher Name
+                    </div>
+                    <div className="text-xl font-semibold  ">Link</div>
+                  </div>
                   {subjects
                     ? subjects.map((item) => (
                         <CourseCard
@@ -203,8 +210,15 @@ export default function Dashboard() {
                 </div>
               </div>
               <div className="flex flex-col border-2 w-1/2 m-1 rounded-lg p-3 bg-amber-50 divide-y-2 divide-neutral-950">
-                <div className="text-2xl font-normal pb-2">Events</div>
+                <div className="text-3xl font-normal pb-2">Events</div>
                 <div className="overflow-auto">
+                  <div className="flex  flex-row mt-4  w-full ml-14 gap-32 items-center">
+                    <div className="text-xl font-semibold ">Event Name</div>
+                    <div className="text-xl font-semibold  ml-1 ">
+                      Club Name
+                    </div>
+                    <div className="text-xl font-semibold  ">Cordinator</div>
+                  </div>
                   {eventData.map((data) => (
                     <EventCard
                       eventName={data.eventName}

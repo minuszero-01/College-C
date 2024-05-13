@@ -3,9 +3,9 @@ import React from "react";
 export default function CourseCard({ subject, teacher }) {
   return (
     <div className="flex border-2  border-gray-400 flex-row mt-4 px-10 rounded-xl  hover:bg-lime-300 w-full justify-around items-center h-12">
-      <div className="text-lg  border-black w-48">{subject}</div>
+      <div className="text-base  border-black w-48">{subject}</div>
 
-      <div className="text-lg mx-10  border-black w-48">{teacher}</div>
+      <div className="text-base mx-10  border-black w-48">{teacher}</div>
       <button>
         <svg
           style={{ width: "15px" }}

@@ -11,6 +11,8 @@ import Me from "./Pages/Me";
 import Courses from "./Pages/Courses";
 import Events from "./Pages/Events";
 import Clubs from "./Pages/Clubs";
+import Teachers from "./Pages/Teachers";
+import SpecificTeacherPage from "./Pages/SpecificTeacherPage";
 
 function App() {
   return (
@@ -23,6 +25,11 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/clubs" element={<Clubs />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/teachers" element={<Teachers />} />
+        <Route
+          path="/teachers/:id/:teachername"
+          element={<SpecificTeacherPage />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );

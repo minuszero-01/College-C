@@ -7,6 +7,10 @@ export default function Navbar() {
     navigate("/dashboard");
   }
 
+  function handleTeachers() {
+    navigate("/teachers");
+  }
+
   function handleCourse() {
     navigate("/courses");
   }
@@ -31,6 +35,12 @@ export default function Navbar() {
           className="mt-4 text-xl text-left font-light hover:bg-lime-300 hover:text-black w-52 pl-5 p-2 rounded-2xl"
         >
           Dashboard
+        </button>
+        <button
+          onClick={handleTeachers}
+          className="mt-4 text-left font-light text-xl hover:bg-lime-300 hover:text-black w-52 pl-5 p-2 rounded-2xl"
+        >
+          My Teachers
         </button>
         <button
           onClick={handleCourse}

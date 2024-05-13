@@ -11,7 +11,7 @@ export default function Events() {
             <p className="mb-2">Events 🎉</p>
           </div>
           <div
-            className="border-2   w-full rounded-xl overflow-auto flex flex-col"
+            className="border-2  border-gray-500 w-full rounded-xl overflow-auto flex flex-col"
             style={{ height: "860px" }}
           >
             <div className="flex flex-col border-2 m-4 p-4 h-auto rounded-xl   ">
@@ -34,7 +34,7 @@ export default function Events() {
                   // onClick={() => setModalOpen(true)}
                   className=" px-4 w-28 h-12  items-center bg-cyan-600 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
                 >
-                  View News
+                  View
                 </button>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Events() {
                 <div className="text-white">Publish date</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
-                <div className=" text-white  p-2" style={{ width: "700px" }}>
+                <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -57,7 +57,7 @@ export default function Events() {
                   // onClick={() => setModalOpen(true)}
                   className=" px-4 w-28 h-12  items-center bg-cyan-600 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
                 >
-                  View News
+                  View
                 </button>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function Events() {
                 <div className="text-white">Publish date</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
-                <div className=" text-white  p-2" style={{ width: "700px" }}>
+                <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -80,7 +80,7 @@ export default function Events() {
                   // onClick={() => setModalOpen(true)}
                   className=" px-4 w-28 h-12  items-center bg-cyan-600 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
                 >
-                  View News
+                  View
                 </button>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Events() {
                 <div className="text-white">Publish date</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
-                <div className=" text-white  p-2" style={{ width: "700px" }}>
+                <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -103,7 +103,7 @@ export default function Events() {
                   // onClick={() => setModalOpen(true)}
                   className=" px-4 w-28 h-12  items-center bg-cyan-600 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
                 >
-                  View News
+                  View
                 </button>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function Events() {
                 <div className="text-white">Publish date</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
-                <div className=" text-white  p-2" style={{ width: "700px" }}>
+                <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -125,7 +125,7 @@ export default function Events() {
                   // onClick={() => setModalOpen(true)}
                   className=" px-4 w-28 h-12  items-center bg-cyan-600 rounded-xl text-white text-base font-normal hover:bg-lime-300 hover:text-black"
                 >
-                  View News
+                  View
                 </button>
               </div>
             </div>
