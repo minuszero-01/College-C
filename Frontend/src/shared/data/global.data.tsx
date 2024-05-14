@@ -234,15 +234,15 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['Randomise'],
+      texts: ['MIT ADT University , Loni Kalbhor'],
     },
     {
       title: 'Phone',
-      texts: ['Not to be Disclosed'],
+      texts: ['1234567890'],
     },
     {
       title: 'Email',
-      texts: ['demo@gmail.com'],
+      texts: ['collegecompass@gmail.com'],
     },
   ],
   socials: [
@@ -258,7 +258,7 @@ export const footerData2: FooterProps = {
       Made by{' '}
       <a
         className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-        href="https://onwidget.com/"
+        href="/"
       >
         {' '}
         Monil , Harsh and Manali with Love

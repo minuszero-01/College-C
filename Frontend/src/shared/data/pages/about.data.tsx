@@ -197,29 +197,29 @@ export const testimonials2About: TestimonialsProps = {
 		tagline: 'Student + Teachers comments',
 	},
 	testimonials: [{
-			name: 'Tayla Kirsten',
+			name: 'Aman Kamble',
 			job: 'Teacher - MIT ADT University',
-			testimonial: `Something Good`,
+			testimonial: `College Compass has completely transformed the way I manage my academic life. The personalized dashboard helps me keep track of my grades, attendance, and schedule all in one place.`,
 			image: {
 				src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-				alt: 'Tayla Kirsten',
+				alt: 'Aman Kamble',
 			},
 			href: '/',
 		},
 		{
-			name: 'Silver Jordan',
+			name: 'Shafi Pathan',
 			job: 'Student - MIT ADT University',
-			testimonial: `Something Good`,
+			testimonial: `As a teacher, College Compass has been a game-changer. The platform makes it incredibly easy to manage my class schedules and track attendance. I appreciate how it keeps all the necessary information, like student contact details and room assignments, organized and accessible.`,
 			image: {
 				src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-				alt: 'Silver Jordan',
+				alt: 'Shafi Pathan',
 			},
 			href: '/',
 		},
 		{
-			name: 'Kelsey Arden',
+			name: 'Harsh Hande',
 			job: 'Student - MIT ADT University & CEO',
-			testimonial: 'Something Good again',
+			testimonial: ' The communication tools have made it so much easier to stay in touch with my professors and classmates. I cant imagine going back to the old way of doing things!',
 			image: {
 				src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
 				alt: 'Kelsey Arden',
@@ -227,9 +227,9 @@ export const testimonials2About: TestimonialsProps = {
 			href: '/',
 		},
 		{
-			name: 'Sarah Johnson',
+			name: 'Monil Karia',
 			job: 'Student - MIT ADT University',
-			testimonial: 'Something good again part 2',
+			testimonial: 'College Compass has revolutionized the way we manage our academic operations. The centralized data management system ensures that all student and teacher information is stored securely and can be retrieved easily. ',
 			image: {
 				src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
 				alt: 'Sarah Johnson',
@@ -237,9 +237,9 @@ export const testimonials2About: TestimonialsProps = {
 			href: '/',
 		},
 		{
-			name: 'Keith Young',
+			name: 'Manali Thakkar',
 			job: 'Student - MIT ADT University',
-			testimonial: 'Something Good not parts',
+			testimonial: 'The platforms user-friendly interface has made it simple for both students and teachers to navigate and utilize its features effectively. Its a powerful tool that has enhanced our institutions efficiency and communication',
 			image: {
 				src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
 				alt: 'Keith Young',
@@ -247,9 +247,9 @@ export const testimonials2About: TestimonialsProps = {
 			href: '/',
 		},
 		{
-			name: 'Lisa Gordon',
+			name: 'Manali"s Friend',
 			job: 'Student - MIT ADT University',
-			testimonial: 'Good is Good never Bad',
+			testimonial: 'College Compass is an essential tool for any educator. The platforms ability to manage class schedules and track attendance saves me so much time and effort. ',
 			image: {
 				src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
 				alt: 'Lisa Gordon',

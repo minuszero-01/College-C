@@ -7,13 +7,14 @@ export const heroFaqs: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-        {`Whether you need help using our Next.js and Tailwind CSS templates, solving problems, or just want some useful tips, our FAQs are here to assist you.`}
+        {`Whether you need help using College Compass, solving problems, or just want some useful tips, our FAQs are here to assist you.`}
       </span>{' '}
-      Explore them to optimize your experience with our website and products.
+      Explore them to optimize your experience with our platform.
     </>
   ),
-  tagline: 'Demo FAQs Page',
+  tagline: 'College Compass FAQs Page',
 };
+
 
 // FAQS4 data on FAQs page *******************
 export const faqs4Faqs: FAQsProps = {
@@ -33,27 +34,27 @@ export const faqs4Faqs: FAQsProps = {
       items: [
         {
           title: 'What do I need to start?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          description: `To get started with College Compass, you'll need your enrollment details and an internet connection. Follow our setup guide for step-by-step instructions.`,
         },
         {
-          title: 'How to install the NextJS + Tailwind CSS template?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          title: 'How do I access my course schedule?',
+          description: `Log in to your College Compass account and navigate to the Student Dashboard. Here you can view your current course schedule, attendance, and more.`,
         },
         {
-          title: "What's something that you completely don't understand?",
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: "What features does the teacher dashboard include?",
+          description: `The teacher dashboard allows you to manage class schedules, track attendance, and communicate directly with students. Explore all the features designed to streamline your teaching experience.`,
         },
         {
-          title: "What's an example of when you changed your mind?",
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+          title: "How do I join a club activity?",
+          description: `Visit the Clubs section on your dashboard to view upcoming activities. You can join events directly from this page and stay updated with all the latest club news.`,
         },
         {
-          title: 'What is something that you would really like to try again?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+          title: 'How secure is my data on College Compass?',
+          description: `We prioritize your data security with advanced encryption and regular updates. Your personal and academic information is securely stored and protected.`,
         },
         {
-          title: 'If you could only ask one question to each person you meet, what would that question be?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'Can I access College Compass on my mobile?',
+          description: `Yes, College Compass is fully responsive and can be accessed on any device, including smartphones and tablets, for on-the-go convenience.`,
         },
       ],
     },
@@ -64,28 +65,28 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          title: 'Which plan is best for me?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'What subscription plans are available?',
+          description: `College Compass offers a range of subscription plans to suit different needs. Whether you're a student, teacher, or administrator, find the plan that's right for you.`,
         },
         {
           title: 'What are my payment options?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          description: `We accept various payment methods, including credit cards, PayPal, and direct bank transfers. Choose the option that's most convenient for you.`,
         },
         {
-          title: 'How do I change my plan to a different one?',
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: 'How do I upgrade my plan?',
+          description: `You can upgrade your plan anytime by visiting the Subscription section in your account settings. Follow the prompts to select and pay for your new plan.`,
         },
         {
-          title: 'What happen at the end of my free trial?',
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+          title: 'What happens at the end of my free trial?',
+          description: `At the end of your free trial, you will need to select a subscription plan to continue using College Compass. Don't worry, we'll remind you before your trial ends.`,
         },
         {
-          title: 'Can I import data from other tools?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+          title: 'Can I import data from other platforms?',
+          description: `Yes, you can easily import data from other academic management tools into College Compass. Our support team can assist you with the process.`,
         },
         {
-          title: 'Can I cancel my plan at any time?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'Can I cancel my subscription anytime?',
+          description: `Absolutely. You can cancel your subscription at any time from your account settings. Your access will remain active until the end of your current billing period.`,
         },
       ],
     },
@@ -96,20 +97,20 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          title: 'How do I download the template?',
-          description: `In ullamcorper pellentesque ante, nec commodo ex euismod viverra. Phasellus facilisis, justo a bibendum pellentesque, nibh est egestas lectus, volutpat ullamcorper arcu ante ac dolor.`,
+          title: 'How do I download the mobile app?',
+          description: `You can download the College Compass mobile app from the App Store or Google Play. The app provides all the features of the web platform in a mobile-friendly format.`,
         },
         {
-          title: 'How do I customize the template?',
-          description: `Pellentesque semper euismod malesuada. Curabitur quis lectus tortor. Aliquam efficitur pretium tellus, ut sagittis turpis dignissim eget. Etiam scelerisque nec risus eget iaculis. Nunc maximus metus id felis dapibus, sed ullamcorper sapien faucibus.`,
+          title: 'How do I customize my dashboard?',
+          description: `You can customize your dashboard by adding or removing widgets, changing the layout, and selecting the information you want to see first. Personalize it to suit your needs.`,
         },
         {
-          title: 'Does the template come with any tutorials or instructions?',
-          description: `Sed sagittis arcu suscipit auctor suscipit. Nam dapibus risus vitae tristique fermentum. In egestas turpis elit, id gravida diam dictum eu. Ut dictum libero ut rhoncus egestas. Ut sit amet tortor blandit, faucibus tellus vitae, consequat purus. Nullam id odio enim.`,
+          title: 'Is there a user guide available?',
+          description: `Yes, we provide detailed user guides and video tutorials to help you get the most out of College Compass. Access these resources from the Help section in your account.`,
         },
         {
-          title: 'Are there any additional fees or charges for using the template?',
-          description: `Fusce efficitur, augue et vulputate pharetra, augue turpis viverra turpis, id tempor purus eros sed erat. Curabitur blandit eget sem vitae malesuada.`,
+          title: 'Are there any additional fees for using College Compass?',
+          description: `Our subscription plans cover all the standard features. However, some premium features or additional services may incur extra fees. Check our pricing page for details.`,
         },
       ],
     },
@@ -122,7 +123,7 @@ export const callToActionFaqs: CallToActionProps = {
   hasBackground: true,
   title: 'Still have questions?',
   subtitle:
-    'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in leo odio. Cras finibus ex a ante convallis ullamcorper.',
+    'If you need further assistance or have more questions, feel free to reach out to our support team. We are here to help you make the most of College Compass.',
   callToAction: {
     text: 'Contact us',
     href: '/contact',
