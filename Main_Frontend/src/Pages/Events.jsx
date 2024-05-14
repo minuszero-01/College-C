@@ -16,18 +16,15 @@ export default function Events() {
           >
             <div className="flex flex-col border-2 m-4 p-4 h-auto rounded-xl   ">
               <div className="flex flex-row gap-4 pl-2">
-                <div className="text-white"> Organizer Name</div>
+                <div className="text-white">Technical Talk: Machine Learning for Everyone</div>
                 <div className="text-white">|</div>
-                <div className="text-white">24/04/24</div>
+                <div className="text-white">30/05/24</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
                 <div className="   p-2" style={{ width: "750px" }}>
                   <p className="text-gray-400">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  Curious about Machine Learning? Join us for a beginner-friendly talk that demystifies the concepts and showcases its applications. 
+                  Snacks provided!
                   </p>
                 </div>
                 <button
@@ -41,17 +38,14 @@ export default function Events() {
 
             <div className="flex flex-col border-2 m-4 p-4 h-auto rounded-xl   ">
               <div className="flex flex-row gap-4 pl-2">
-                <div className="text-white"> Organizer Name</div>
+                <div className="text-white"> Cultural Fest: Celebrating Diversity</div>
                 <div className="text-white">|</div>
-                <div className="text-white">Publish date</div>
+                <div className="text-white">20/05/2024</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
                 <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                Immerse yourself in the vibrant tapestry of India! Dance performances, music, food stalls, and more await. 
+                Celebrate unity in diversity!
                 </div>
                 <button
                   // onClick={() => setModalOpen(true)}
@@ -64,17 +58,14 @@ export default function Events() {
 
             <div className="flex flex-col border-2 m-4 p-4 h-auto rounded-xl   ">
               <div className="flex flex-row gap-4 pl-2">
-                <div className="text-white"> Organizer Name</div>
+                <div className="text-white"> Career Guidance Workshop: Landing Your Dream Job</div>
                 <div className="text-white">|</div>
-                <div className="text-white">Publish date</div>
+                <div className="text-white">04/06/2024</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
                 <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                Get expert ' Monil , Harsh and Manali ' advice on crafting a winning resume, acing interviews, and navigating the job market. 
+                Don't miss this opportunity to take charge of your career!
                 </div>
                 <button
                   // onClick={() => setModalOpen(true)}
@@ -87,17 +78,14 @@ export default function Events() {
 
             <div className="flex flex-col border-2 m-4 p-4 h-auto rounded-xl   ">
               <div className="flex flex-row gap-4 pl-2">
-                <div className="text-white"> Organizer Name</div>
+                <div className="text-white">Inter-College Sports Meet - "Utsav Sports</div>
                 <div className="text-white">|</div>
-                <div className="text-white">Publish date</div>
+                <div className="text-white">13/06/2024</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
                 <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                Witness the thrill of sportsmanship and camaraderie as colleges from across the region compete in various sports events.
+                Join us for an action-packed day at "Utsav Sports".
                 </div>
                 <button
                   // onClick={() => setModalOpen(true)}
@@ -109,17 +97,14 @@ export default function Events() {
             </div>
             <div className="flex flex-col border-2 m-4 p-4 h-auto rounded-xl ">
               <div className="flex flex-row gap-4 pl-2">
-                <div className="text-white"> Organizer Name</div>
+                <div className="text-white"> Tech Symposium - "TechVaganza"</div>
                 <div className="text-white">|</div>
-                <div className="text-white">Publish date</div>
+                <div className="text-white">19/06/2024</div>
               </div>
               <div className="flex flex-row items-center mt-2 justify-between px-4">
                 <div className=" text-gray-400  p-2" style={{ width: "700px" }}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                Embark on a journey of innovation and technology at "TechVaganza". 
+                Engage in workshops, seminars, and competitions to showcase your technical prowess and creativity.
                 </div>
                 <button
                   // onClick={() => setModalOpen(true)}

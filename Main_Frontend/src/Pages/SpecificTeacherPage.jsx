@@ -25,7 +25,7 @@ export default function SpecificTeacherPage() {
                   </div>
 
                   <div className=" text-white text-2xl font-light">
-                    Email Address : johnsmith004@gmail.com
+                    Email Address : rajini.sajjan@mitatdu.edu.in
                   </div>
                   <div className=" text-white text-2xl font-light">
                     Contact No. : 9012345678
@@ -38,20 +38,20 @@ export default function SpecificTeacherPage() {
                     Specialization : Cloud Computing
                   </div>
                   <div className=" text-white text-2xl font-light">
-                    John Smith is a seasoned educator with a robust background
+                    Rajini Sajjan is a seasoned educator with a robust background
                     in computer science and a specialized focus in cloud
-                    computing. John holds two advanced certifications in cloud
+                    computing. Rajini holds two advanced certifications in cloud
                     computing, which include AWS Certified Solutions Architect
                     and Google Cloud Certified Professional Cloud Architect.
                     These certifications underline his expertise in designing
                     scalable, reliable, and efficient systems on the cloud,
                     making him a valuable resource for students aiming to excel
                     in the cutting-edge field of cloud technology. In addition
-                    to his teaching responsibilities, John is an active
+                    to his teaching responsibilities, Rajini Sajjan is an active
                     innovator in the tech community.
                   </div>
                   <div className=" text-white text-2xl font-light">
-                    He has successfully secured two patents that contribute
+                    She has successfully secured two patents that contribute
                     significantly to advancements in cloud technology. The first
                     patent details a novel method for data encryption in
                     distributed systems, enhancing security across cloud
