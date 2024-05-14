@@ -61,7 +61,7 @@ export const heroHome: HeroProps = {
   },
   callToAction2: {
     text: 'Log-In',
-    href: '/',
+    href: 'http://localhost:5173/login',
   },
   image: {
     src: heroImg,

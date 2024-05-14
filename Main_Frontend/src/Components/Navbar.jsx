@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <div
       className="flex flex-col  translate   rounded-lg   bg-sky-950  text-white items-center gap-6 font-medium text-lg"
-      style={{ width: "300px", height: "860px" }}
+      style={{ width: "300px", height: "910px" }}
     >
       <div className=" text-2xl mt-6  font-normal ">College Compass</div>
       <div className="ml-4">

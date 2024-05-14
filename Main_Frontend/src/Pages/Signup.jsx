@@ -18,8 +18,8 @@ export default function Signup() {
   return (
     <div className="flex flex-row">
       <div className="bg-slate-100 h-screen w-1/3">
-        <div className="flex h-screen justify-center items-center text-4xl font-semibold">
-          Welcome to Signup Page
+        <div className="flex flex-col  bg-sky-800 justify-center h-screen">
+          <img src="\Images\CClogo.png" className="pr-20 pb-10"></img>
         </div>
       </div>
       <div className="bg-slate-800 h-screen w-2/3">
