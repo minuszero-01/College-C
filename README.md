@@ -100,10 +100,6 @@ Here are some screenshots of our platform:
 ### Specific Teachers Page
 ![SpecificTeacherPage](https://github.com/user-attachments/assets/880142e3-5c9a-4f82-8efb-c29efccddd5b)
 
-
-### Event Registration
-![Event Registration](https://via.placeholder.com/800x400.png?text=Event+Registration)
-
 ## 🎯 Key Objectives
 
 - **User-Friendly Platform**: Accessible for all students, irrespective of technical proficiency.
