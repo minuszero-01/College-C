@@ -77,11 +77,29 @@ Check out our [demo video](https://www.youtube.com/watch?v=example) to see Colle
 
 Here are some screenshots of our platform:
 
-### Home Page
-![Home Page](https://via.placeholder.com/800x400.png?text=Home+Page)
+
+
+### SignIn Page
+![signIn](https://github.com/user-attachments/assets/2c6383e2-2bd0-4c3c-86ba-57e37456f7c5)
+
+
+### Login Page
+![login](https://github.com/user-attachments/assets/f07ad694-d60a-419b-8200-9f9b9d31d308)
+
+
+### Dashboard
+![dashboard](https://github.com/user-attachments/assets/288eec6a-4490-430f-a5d9-bfd2b78327ca)
+
 
 ### Event Details
-![Event Details](https://via.placeholder.com/800x400.png?text=Event+Details)
+![EventsPage](https://github.com/user-attachments/assets/a3bef210-3789-458a-aee8-f4e38e49a26b)
+
+### Teacher Page
+![teachers](https://github.com/user-attachments/assets/d4b3874e-ff14-47b5-a57d-404f1e251823)
+
+### Specific Teachers Page
+![SpecificTeacherPage](https://github.com/user-attachments/assets/880142e3-5c9a-4f82-8efb-c29efccddd5b)
+
 
 ### Event Registration
 ![Event Registration](https://via.placeholder.com/800x400.png?text=Event+Registration)
